@@ -1,0 +1,169 @@
+body{
+    background-color: #F5F5F5 !important;
+}
+
+
+.outer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 5rem;
+    background-color: #fff !important;
+}
+
+.slider{
+    background-color: #F2F2F2;
+}
+
+.images{
+    width:100%;
+    height:auto;
+}
+
+.pad{
+    padding: 0 !important;
+    margin: 1rem;
+}
+
+.column{
+    margin: 0.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.2rem !important;
+}
+
+.margins{
+    margin: 1rem 0rem;
+}
+
+.alignment1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alignment2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.bestbooks{
+    padding-right: 1.5rem !important;
+}
+
+.heading{
+    background-color: #A3A3A3;
+    color:white;
+    height: 3.5rem;
+}
+
+.bord{
+    border-right: 1px solid #fff;
+}
+
+.back{
+    z-index:1;
+}
+.front{
+    position:absolute;
+    z-index:10;
+    top:0;
+    left:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+}
+
+.desc{
+    background-color: black;
+    width:90%;
+    position:relative;
+    top:35.5%;
+    height: 5rem;
+}
+
+.hover{
+    display:flex;
+}
+
+.buttons{
+    color: #777676;
+    background: rgba(255,255,255,.82);
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.bname{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 0.5rem;;
+    font-size: 1rem;
+}
+
+.price{
+    font-size: 1.3rem;
+    color: #2abfb9;
+    margin-left: 1rem;
+    line-height: 0.5rem;
+}
+
+.fa-info{
+    height:50%;
+    width:100%;
+    background-color: #1cafbb;
+    color:white;
+    margin:0;
+    padding: 30% 45%;
+}
+
+.fa-shopping-cart{
+    height:50%;
+    width:100%;
+    background-color: #1cbb81;
+    color:white;
+    margin:0;
+    padding: 30% 33%;
+}
+
+#new{
+    background-color: black;
+}
+
+#popular{
+    display:none;
+}
+
+#bestseller{
+    display:none;
+}
+
+.foot{
+    width: 100%;
+    height: 6rem;
+}
+
+.social{
+    height: 100%;
+}
+
+.sicons{
+    margin: 0 0.8rem;
+    font-size: 1.5rem !important;
+}
+
+.siocns:hover{
+    color: #F2F2F2 !important;
+}
