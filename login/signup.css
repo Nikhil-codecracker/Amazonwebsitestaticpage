@@ -1,0 +1,161 @@
+#main{
+    height: 75%;
+    width: 48%;
+    border-radius: 40px;
+    position: absolute;
+    top: 12.5%;
+    left: 26%;
+    box-shadow: 5px 5px 10px rgb(168, 168, 168);
+}
+.part{
+    height:100%;
+    width:50%;
+    text-align: center;
+
+}
+#signin{
+    position:absolute;
+}
+#hello{
+    position:absolute;
+    left:50%;
+    border-radius: 0px 40px 40px 0px;
+    color:white;
+}
+#head{
+    position:relative;
+    top:5%;
+    font-weight:bold;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email{
+    width:70%;
+    height:7%;
+    background-color:#EEEEEE;
+    border:none;
+    padding:0px 0px 0px 5%;
+    margin-bottom:6%;
+}
+.password{
+    width:70%;
+    height:7%;
+    background-color:#EEEEEE;
+    border:none;
+    padding:0px 0px 0px 5%;
+}
+#b1{
+    width:35%;
+    height:8%;
+    border-radius:20px;
+    background-color: #FF464E;
+    color:white;
+    border:none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.social{
+    color:#484A4F;
+    border:0.1px #484A4F solid; 
+    border-radius:50%;
+    margin:5px;
+    text-decoration: none;
+    height:4.5%;
+    width:9%;
+    padding-top:1.2%
+}
+#h{
+    position: relative;
+    top:25%;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#info{
+    position: relative;
+    top:25%;
+    font-size:120%;
+}
+#b2{
+    width:35%;
+    height:8%;
+    border-radius:20px;
+    background-color: #FF464E;
+    color:white;
+    border:1px solid white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#welcome{
+    position:absolute;
+    border-radius: 40px 0px 0px 40px;
+    color:white;
+    display:none;
+}
+#w{
+    position: relative;
+    top:25%;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#note{
+    position: relative;
+    top:25%;
+    font-size:120%;
+    margin:0px 20px 0px 20px;
+}
+#b3{
+    width:35%;
+    height:8%;
+    border-radius:20px;
+    background-color: #FF464E;
+    color:white;
+    border:1px solid white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#create{
+    position:relative;
+    top:5%;
+    font-weight:bold;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#b4{
+    width:35%;
+    height:8%;
+    border-radius:20px;
+    background-color: #FF464E;
+    color:white;
+    border:none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+#name{
+    width:70%;
+    height:7%;
+    background-color:#EEEEEE;
+    border:none;
+    padding:0px 0px 0px 5%;
+    margin-bottom:6%;
+}
+#background{
+    position:absolute;
+    left:50%;
+    height:100%;
+    width:50%;
+    background-color:#FF464E;
+    z-index:0;
+    border-radius: 0px 40px 40px 0px;
+}
+#signup{
+    position:absolute;
+    left:50%;
+    z-index:10;
+    display:none;
+}
